@@ -2,7 +2,7 @@
 
 ## Leer el dataset y analizarlo
 
-hotelBooking <- read.csv("data/hotel_bookings_clean.csv")
+hotelBooking <- read.csv("../data/hotel_bookings_clean.csv", header = TRUE, stringsAsFactors = FALSE)
 str(hotelBooking)
 summary(hotelBooking)
 
