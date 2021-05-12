@@ -2,9 +2,9 @@
 
 ## Leer el dataset y analizarlo
 
-hotelBooking <- read.csv("../data/hotel_bookings_clean.csv", header = TRUE, stringsAsFactors = FALSE)
-str(hotelBooking)
-summary(hotelBooking)
+hotelBooking <- read.csv("data/hotel_bookings_clean.csv", header = TRUE, stringsAsFactors = FALSE)
+#str(hotelBooking)
+#summary(hotelBooking)
 
 ## Ver cuántos requieren estacionamiento de las reservas, con la función table()
 
