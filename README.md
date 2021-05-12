@@ -19,7 +19,7 @@ El dataset trabajado es una adaptación del conjunto de datos original, que se p
 Dicho artículo fue escrito por Nuno Antonio, Ana de Almeida y  Luis Nunes, asociados al Instituto Universitário de Lisboa, de Portugal, y publicado en ScienceDirect en el 2018. Los autores mencionan que crearon este dataset con el propósito de ayudar en la escasez de datos comerciales reales con fines científicos y educativos, con un énfasis en la investigación y la educación en la gestión de ingresos, el aprendizaje automático o la minería de datos.
 
 # Conclusiones
-* Existe un total de 119390 reservaciones, de los cuales 40060 son del tipo “Resort Hotel” y 79330 son del tipo “City Hotel”, este último es el preferido por los clientes, el cual representa un 66.45% aproximadamente de todos los registros.
+* Existe un total de 119239 reservaciones, de los cuales 39913 son del tipo “Resort Hotel” y 79326 son del tipo “City Hotel”, este último es el preferido por los clientes, el cual representa un 66.53% aproximadamente de todos los registros.
 * En el año 2016 la cantidad de reservas aumentó de 21941 a 56639 y en el año 2017 disminuyó de 56639 a 40659. Sin embargo, la cantidad de reservaciones se mantuvo superior al año 2015.
 * En el nivel bajo se encuentra los primeros y últimos meses del año. El menor Enero con 5927 reservas, después Diciembre con 6768, Noviembre con 6786, y Febrero con 8059 reservas.
 * En el nivel medio se encuentra la mayoría de meses del año. Marzo con 9782, Septiembre con 10486, Junio con 10933, Abril con 11074, y Octubre con 11141 reservas.
