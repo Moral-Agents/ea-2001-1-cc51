@@ -2,9 +2,9 @@
 
 ## Leer el dataset y analizarlo
 
-hotelBooking <- read.csv("../data/hotel_bookings_clean.csv", header = TRUE, stringsAsFactors = FALSE)
-str(hotelBooking)
-summary(hotelBooking)
+hotelBooking <- read.csv("data/hotel_bookings_clean.csv", header = TRUE, stringsAsFactors = FALSE)
+#str(hotelBooking)
+#summary(hotelBooking)
 
 ## Vemos si la columna que necesitamos tiene valores NA
 
