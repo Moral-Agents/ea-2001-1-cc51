@@ -7,16 +7,11 @@ hotelBooking <- read.csv("data/hotel_bookings_clean.csv", header = TRUE, strings
 #summary(hotelBooking)
 
 ## Ver el número de cancelaciones de todos los meses y guardarlos
+table(hotelBooking$arrival_date_month[hotelBooking$is_canceled == 1])
 
-datos <- table(hotelBooking$arrival_date_month[hotelBooking$is_canceled == 1])
+counts = sort(table(hotelBooking$arrival_date_month[hotelBooking$is_canceled == 1]))
 
-## Ordenar los datos obtenidos anteriormente y guardarlos
-
-datos <- sort(datos)
-
-## Gráfica de barras para visualizarlos mejor
-
-barplot(datos, col = c("blue"), main = "Número de cancelaciones por meses del año")
+barplot(counts, col = c("blue"), main = "Meses del año con sus cancelaciones")
 
 
 
