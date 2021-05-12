@@ -6,10 +6,6 @@ hotelBooking <- read.csv("data/hotel_bookings_clean.csv", header = TRUE, strings
 #str(hotelBooking)
 #summary(hotelBooking)
 
-## Vemos si la columna que necesitamos tiene valores NA
-
-hotelBooking$is_canceled[is.na(hotelBooking$is_canceled) == TRUE]
-
 ## Ver el número de cancelaciones de todos los meses y guardarlos
 
 datos <- table(hotelBooking$arrival_date_month[hotelBooking$is_canceled == 1])
