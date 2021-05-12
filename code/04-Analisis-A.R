@@ -6,10 +6,6 @@ hotelBooking <- read.csv("../data/hotel_bookings_clean.csv", header = TRUE, stri
 str(hotelBooking)
 summary(hotelBooking)
 
-## Vemos si la columna que necesitamos tiene valores NA
-
-hotelBooking$arrival_date_month[is.na(hotelBooking$arrival_date_month) == TRUE]
-
 ## Ver cuántas reservas se hacen en cada mes
 
 table(hotelBooking$arrival_date_month)
